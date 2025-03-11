@@ -61,8 +61,6 @@ jobs:
           zip -r AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa Payload
           cd ../../../
           ./scripts/sign-ipa.sh build/ios/iphoneos/AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa ./certificate.p12 "$P12_PASSWORD" ./profile.mobileprovision ./AnymeX-iOS-${{ github.ref_name }}.ipa
-          pwd
-          ls
 
       - name: Release iOS IPA
         uses: ncipollo/release-action@v1
