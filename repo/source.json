@@ -43,7 +43,7 @@
             "name": "com.apple.developer.associated-domains"
           },
           {
-            "name": "com.apple.developer.usernotifications"
+            "name": "com.apple.developer.usernotifications.communication"
           },
           {
             "name": "keychain-access-groups"
