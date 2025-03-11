@@ -14,21 +14,28 @@
       "bundleIdentifier": "com.ryan.anymex",
       "developerName": "RyanYuuki",
       "subtitle": "Multiservice tracking client",
-      "version": "2.9.2-cool",
-      "versionDate": "2025-03-11T12:48:35Z",
+      "version": "2.9.2-test",
+      "versionDate": "2025-03-11T13:02:16Z",
       "versionDescription": "",
-      "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-cool/AnymeX-iOS-v2.9.2-cool.ipa",
+      "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-test/AnymeX-iOS-v2.9.2-test.ipa",
       "localizedDescription": "AnymeX is a multiservice tracking client, with AniList, MyAnimeList & Simkl support!",
       "iconURL": "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/icons/anymex.webp",
       "tintColor": "71717A",
       "category": "entertainment",
-      "size": 37513658,
+      "size": 38254797,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_0.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_1.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_2.webp"
       ],
       "versions": [
+        {
+          "version": "2.9.2-test",
+          "date": "2025-03-11T13:02:16Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-test/AnymeX-iOS-v2.9.2-test.ipa",
+          "size": 38254797
+        },
         {
           "version": "2.9.2-cool",
           "date": "2025-03-11T12:48:35Z",
@@ -75,6 +82,17 @@
       "imageURL": "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/news/update.webp",
       "notify": true,
       "url": "https://github.com/tanakrit-d/AnymeX-Workflow-Test/releases/tag/v2.9.2-cool"
+    },
+    {
+      "appID": "com.ryan.anymex",
+      "title": "2.9.2-test - 11 Mar",
+      "identifier": "release-2.9.2-test",
+      "caption": "Update for AnymeX now available!",
+      "date": "2025-03-11T13:02:16Z",
+      "tintColor": "71717A",
+      "imageURL": "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/news/update.webp",
+      "notify": true,
+      "url": "https://github.com/tanakrit-d/AnymeX-Workflow-Test/releases/tag/v2.9.2-test"
     }
   ]
 }
