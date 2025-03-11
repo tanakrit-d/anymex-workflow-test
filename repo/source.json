@@ -38,7 +38,23 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          {
+            "name": "com.apple.developer.associated-domains"
+          },
+          {
+            "name": "com.apple.developer.usernotifications"
+          },
+          {
+            "name": "keychain-access-groups"
+          },
+          {
+            "name": "aps-environment"
+          },
+          {
+            "name": "com.apple.developer.networking.wifi-info"
+          }
+        ],
         "privacy": []
       }
     }
