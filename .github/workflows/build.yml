@@ -46,7 +46,7 @@ jobs:
         run: |
           echo "$P12_BASE64" | base64 -d > certificate.p12
           echo "$PROVISIONING_PROFILE_BASE64" | base64 -d > profile.mobileprovision
-          chmod +x scripts/sign-ipa.sh
+          chmod +x ./scripts/sign-ipa.sh
 
       - name: Build iOS
         env:
