@@ -14,7 +14,7 @@
       "bundleIdentifier": "com.ryan.anymex",
       "developerName": "RyanYuuki",
       "subtitle": "Multiservice tracking client",
-      "version": "2.9.2-hotfix",
+      "version": "2.9.2",
       "versionDate": "2025-03-11T13:16:50Z",
       "versionDescription": "",
       "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-hotfix/AnymeX-iOS-v2.9.2-hotfix.ipa",
@@ -30,7 +30,7 @@
       ],
       "versions": [
         {
-          "version": "2.9.2-hotfix",
+          "version": "2.9.2",
           "date": "2025-03-11T13:16:50Z",
           "localizedDescription": "",
           "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-hotfix/AnymeX-iOS-v2.9.2-hotfix.ipa",
