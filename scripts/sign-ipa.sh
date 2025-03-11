@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ "$#" -ne 4 ]; then
-    echo "Usage: $0 <ipa> <p12> <password> <mobileprovision>"
+if [ "$#" -ne 5 ]; then
+    echo "Usage: $0 <ipa> <p12> <password> <mobileprovision> <output>"
     exit 1
 fi
 
