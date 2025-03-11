@@ -53,7 +53,7 @@ if [[ "$UUID" == "null" || "$TIME" == "null" ]]; then
     exit 1
 fi
 
-# Poll signcheck endpoint every 20 seconds, up to 10 times
+# Poll signcheck endpoint
 ATTEMPTS=0
 MAX_ATTEMPTS=10
 SLEEP_DURATION=20
