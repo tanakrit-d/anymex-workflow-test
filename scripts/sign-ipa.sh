@@ -16,7 +16,7 @@ sign_ipa() {
     local MOBILEPROVISION_FILE="$4"
     local OUTPUT_FILE="$5"
 
-    local UPLOAD_URL="https://ipa.ipasign.cc:2052/uploadipa1"
+    local UPLOAD_URL="https://ipa.ipasign.cc:2052/uploadipa"
     local SIGNCHECK_URL="https://ipa.ipasign.cc:2052/signcheck"
 
     log_message "Signing .ipa with ipasign.cc"
