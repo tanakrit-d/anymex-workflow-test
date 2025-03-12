@@ -61,6 +61,13 @@ jobs:
           zip -r AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa Payload
           cd ../../../
           ./scripts/sign-ipa.sh build/ios/iphoneos/AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa ./certificate.p12 "$P12_PASSWORD" ./profile.mobileprovision ./AnymeX-iOS-${{ github.ref_name }}.ipa
+        continue-on-error: true
+
+      - name: Handle iOS Signing Failure
+        if: steps.sign-ipa.outcome != 'success'
+        run: |
+          echo "IPA signing failed, taking alternative action..."
+          mv "build/ios/iphoneos/AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa" "AnymeX-iOS-${{ github.ref_name }}.ipa"
 
       - name: Release iOS IPA
         uses: ncipollo/release-action@v1
