@@ -15,20 +15,28 @@
       "developerName": "RyanYuuki",
       "subtitle": "Multiservice tracking client",
       "version": "2.9.2",
-      "versionDate": "2025-03-12T05:32:53Z",
+      "versionDate": "2025-03-12T05:55:38Z",
       "versionDescription": "",
-      "downloadURL": null,
+      "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-failure/AnymeX-iOS-v2.9.2-failure.ipa",
       "localizedDescription": "AnymeX is a multiservice tracking client, with AniList, MyAnimeList & Simkl support!",
       "iconURL": "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/icons/anymex.webp",
       "tintColor": "71717A",
       "category": "entertainment",
-      "size": null,
+      "size": 37657190,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_0.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_1.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_2.webp"
       ],
-      "versions": [],
+      "versions": [
+        {
+          "version": "2.9.2",
+          "date": "2025-03-12T05:55:38Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-failure/AnymeX-iOS-v2.9.2-failure.ipa",
+          "size": 37657190
+        }
+      ],
       "appPermissions": {
         "entitlements": [
           {
