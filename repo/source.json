@@ -29,6 +29,13 @@
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_2.webp"
       ],
       "versions": [
+        {
+          "version": "2.9.2",
+          "date": "2025-03-12T02:40:32Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-hotfix/AnymeX-iOS-v2.9.2-hotfix.ipa",
+          "size": 38254813
+        }
       ],
       "appPermissions": {
         "entitlements": [
@@ -53,5 +60,16 @@
     }
   ],
   "news": [
+    {
+      "appID": "com.ryan.anymex",
+      "title": "2.9.2-hotfix - 12 Mar",
+      "identifier": "release-2.9.2-hotfix",
+      "caption": "Update for AnymeX now available!",
+      "date": "2025-03-12T02:40:32Z",
+      "tintColor": "71717A",
+      "imageURL": "https://raw.githubusercontent.com/tanakrit-d/anymex-workflow-test/refs/heads/main/repo/images/news/update.webp",
+      "notify": true,
+      "url": "https://github.com/tanakrit-d/anymex-workflow-test/releases/tag/v2.9.2-hotfix"
+    }
   ]
 }
