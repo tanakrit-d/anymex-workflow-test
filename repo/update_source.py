@@ -52,7 +52,7 @@ class AppData(TypedDict):
     news: List[NewsEntry]
 
 
-REPO_URL: str = "RyanYuuki/AnymeX"
+REPO_URL: str = "tanakrit-d/anymex-workflow-test"
 JSON_FILE: str = "repo/source.json"
 APP_ID: str = "com.ryan.anymex"
 APP_NAME: str = "AnymeX"
