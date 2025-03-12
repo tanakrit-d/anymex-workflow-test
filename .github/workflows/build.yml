@@ -67,7 +67,7 @@ jobs:
         if: failure()
         run: |
           echo "IPA signing failed, taking alternative action..."
-          mv "build/ios/iphoneos/AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa" "AnymeX-iOS-${{ github.ref_name }}.ipa"
+          mv "build/ios/iphoneos/AnymeX-iOS-${{ github.ref_name }}-unsigned.ipa" ./"AnymeX-iOS-${{ github.ref_name }}.ipa"
 
       - name: Release iOS IPA
         uses: ncipollo/release-action@v1
