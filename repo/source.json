@@ -15,28 +15,20 @@
       "developerName": "RyanYuuki",
       "subtitle": "Multiservice tracking client",
       "version": "2.9.2",
-      "versionDate": "2025-03-12T04:09:25Z",
+      "versionDate": "2025-03-12T05:06:20Z",
       "versionDescription": "",
-      "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-success/AnymeX-iOS-v2.9.2-success.ipa",
+      "downloadURL": null,
       "localizedDescription": "AnymeX is a multiservice tracking client, with AniList, MyAnimeList & Simkl support!",
       "iconURL": "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/icons/anymex.webp",
       "tintColor": "71717A",
       "category": "entertainment",
-      "size": 37519393,
+      "size": null,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_0.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_1.webp",
         "https://raw.githubusercontent.com/tanakrit-d/AnymeX-Workflow-Test/refs/heads/main/repo/images/screenshots/image_2.webp"
       ],
-      "versions": [
-        {
-          "version": "2.9.2",
-          "date": "2025-03-12T04:09:25Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/tanakrit-d/anymex-workflow-test/releases/download/v2.9.2-success/AnymeX-iOS-v2.9.2-success.ipa",
-          "size": 37519393
-        }
-      ],
+      "versions": [],
       "appPermissions": {
         "entitlements": [
           {
@@ -92,6 +84,17 @@
       "imageURL": "https://raw.githubusercontent.com/tanakrit-d/anymex-workflow-test/refs/heads/main/repo/images/news/update.webp",
       "notify": true,
       "url": "https://github.com/tanakrit-d/anymex-workflow-test/releases/tag/v2.9.2-success"
+    },
+    {
+      "appID": "com.ryan.anymex",
+      "title": "2.9.2-failure - 12 Mar",
+      "identifier": "release-2.9.2-failure",
+      "caption": "Update for AnymeX now available!",
+      "date": "2025-03-12T05:06:20Z",
+      "tintColor": "71717A",
+      "imageURL": "https://raw.githubusercontent.com/tanakrit-d/anymex-workflow-test/refs/heads/main/repo/images/news/update.webp",
+      "notify": true,
+      "url": "https://github.com/tanakrit-d/anymex-workflow-test/releases/tag/v2.9.2-failure"
     }
   ]
 }
